@@ -3,7 +3,7 @@
 
 ### Crear proyecto en [Google Cloud Console.](https://cloud.google.com)
 
-Creación clave de cuenta de servicio que se necesitará para que Terraform administre los recursos.
+### Creación clave de cuenta de servicio que se necesitará para que Terraform administre los recursos.
 ![GCP](/images/gcpserviceaccount.png)
 
 ### Instale Terraform desde los binarios de instalación.

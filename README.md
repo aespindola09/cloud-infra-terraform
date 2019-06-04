@@ -8,4 +8,17 @@
 
 ### Paso3: Instale Terraform desde los binarios de instalación.
 
-### Paso4: Cree una infraestructura de instancia de máquina virtual utilizando Terraform.
+### Paso4: Descarga y configuración de Google Cloud SDK
+Ahora que tenemos Terraform instalado, debemos configurar la utilidad de línea de comandos para interactuar con nuestros servicios en Google Cloud Platform. Esto nos permitirá autenticarnos en nuestra cuenta en Google Cloud Platform y, posteriormente, utilizar Terraform para administrar la infraestructura.
+
+Descargue e instale el SDK de Google Cloud:
+
+$ curl https://sdk.cloud.google.com | bash
+Inicialice el entorno gcloud:
+
+$ gcloud init
+
+Podrá conectar su cuenta de Google con el entorno gcloud siguiendo las instrucciones en pantalla de su navegador. Si estás atascado, trata de revisar la documentación oficial .
+
+
+### Paso5: Cree una infraestructura de instancia de máquina virtual utilizando Terraform.

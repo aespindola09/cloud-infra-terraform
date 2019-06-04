@@ -1,5 +1,8 @@
-# cloud-infra-terraform
-Gestión de infraestructura Google Cloud con Terraform
+# Gestión de infraestructura Google Cloud con Terraform
+**Requisitos:**
+
+Crear proyecto en [Google Cloud Console.](https://cloud.google.com)
+
 
 Instale Terraform desde los binarios de instalación.
 

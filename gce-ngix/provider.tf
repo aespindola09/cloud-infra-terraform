@@ -1,4 +1,4 @@
-// Configure the Google Cloud provider
+# Specify the provider (GCP, AWS, Azure)
 provider "google" {
   credentials = "${file("credentials.json")}"
   project = "${var.var_project}"

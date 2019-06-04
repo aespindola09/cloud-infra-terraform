@@ -26,7 +26,7 @@ resource "google_compute_instance" "bastion" {
   machine_type = "${var.bastion_machine_type}"
   zone         = "${var.zone}"
 
-tags = ["ssh-allow"]
+//tags = ["ssh-allow"]
 
     boot_disk {
     initialize_params {

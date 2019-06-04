@@ -2,6 +2,7 @@
 resource "google_compute_network" "default" {
   name = "${var.network_name}"
   auto_create_subnetworks = false
+  delete_default_routes_on_create = false
 }
 resource "google_compute_subnetwork" "default" {
   name                     = "${var.subnetwork_name}"
@@ -28,6 +29,7 @@ resource "google_compute_firewall" "default" {
   }
 
   source_tags = ["web"]
+  depends_on = ["google_compute_network.default"]
 }
 
 resource "google_compute_firewall" "bastion" {
@@ -45,4 +47,5 @@ resource "google_compute_firewall" "bastion" {
   }
 
   source_ranges = ["0.0.0.0/0"]
+depends_on = ["google_compute_network.default"]
 }

@@ -14,6 +14,8 @@ resource "google_compute_instance" "vm_instance" {
     # A default network is created for all GCP projects
     network       = "default"
     access_config = {
+      // Ephemeral IP
     }
   }
+    metadata_startup_script = "${var.startup-script}"
 }

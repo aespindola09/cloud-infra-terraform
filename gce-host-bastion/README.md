@@ -1,5 +1,5 @@
-##Descripción general
-###Limitar el acceso a los recursos es una práctica recomendada para la administración de la infraestructura.
+## Descripción general
+### Limitar el acceso a los recursos es una práctica recomendada para la administración de la infraestructura.
 ![GCP](/images/bastionhost.png)
 
 

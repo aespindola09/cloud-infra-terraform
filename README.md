@@ -21,4 +21,4 @@ $ gcloud init
 Podrá conectar su cuenta de Google con el entorno gcloud siguiendo las instrucciones en pantalla de su navegador. Si estás atascado, trata de revisar la documentación oficial .
 
 
-### Paso5: Cree una infraestructura de instancia de máquina virtual utilizando Terraform.
+### Paso5: Cree una de las infraestructura de los Directorios con Terraform.
